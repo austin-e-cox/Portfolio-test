@@ -36,43 +36,65 @@ The entire content and the main section content area is 960px wide.
     <title>Austin Cox Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    <div class="headerData clearFix">
-        <!-- Author's Name -->
-        <div class="nameDiv">
-            <strong>Austin Cox</strong>
+
+    <!-- wrapper for sticky footer -->
+    <div class="allContent">
+
+        <div class="headerBg">
+            
+            <!-- Header -->
+            <div class="headerData">
+                
+                <!-- Author's Name -->
+                <div class="nameDiv">
+                    <strong>Austin Cox</strong>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                        
+                    <!-- Add a blank box to push the links right -->
+                    <!--<div class="navFixed">
+                    </div>-->
+
+                    <div class="navItem">
+                        <a href="index.html">About</a>
+                    </div>
+
+                    <!-- Line div -->
+                    <div class="divider"></div>
+
+                    <div class="navItem">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+
+                    <!-- Line div -->
+                    <div class="divider"></div>
+
+                    <div class="navItem">
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <h1 class="headers">About Me</h1>
+            <hr id="sep">
+            <div class=contentData>
+                <img src="assets/images/profile.jpg" class="contentImage">
+                <div class="contentText">
+                    <p>My name is Austin Cox. I am an avid programmer and work too late sometimes. I have lengthy experience in Python, some experience in C++, and Fortran coding languages. I am curently extending my knowledge to HTML, CSS, Javascript and others.</p>
+                    <p>I very much enjoy coding and sometimes get stuck on my current task and forget about other things, but it's okay because I am having fun and learning.</p>
+                    <p>Besides coding, I also enjoy playing Australian Rules Football, and am Vice-President of the <a href="http://www.seattlegrizzlies.com/">local USAFL club.</a></p>
+                </div>
+            </div>
         </div>
 
-        <!-- Navigation -->
-        <nav class="nav">
-            <div class="navContainer">
-
-                <div class="navFixed">
-                    <a href="index.html">About</a>
-                </div>
-
-                <!-- Line div -->
-                <div class="verticalLine"></div>
-
-                <div class="navItem">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-
-                <!-- Line div -->
-                <div class="verticalLine"></div>
-
-                <div class="navItem">
-                    <a href="contact.html">Contact</a>
-                </div>
-
-            </div>
-        </nav>
-
-    <!-- Content -->
-    <div class="content">
-        <h1 class="headers">About Me</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur erat sed mi tempus porta. Aliquam vitae condimentum felis, non auctor metus. Phasellus mollis nec orci at accumsan. Aliquam dignissim sit amet sapien vel cursus. Pellentesque tristique aliquam turpis at viverra. Curabitur ut leo risus. Pellentesque condimentum bibendum risus, id semper mauris suscipit ac.</p>
     </div>
+    <footer class="footer">Copyright &copy;</footer>
 </body>
 </html>
