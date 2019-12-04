@@ -20,7 +20,7 @@ body {
     justify-content: flex-start;
     background-color: #ffffff;
     border-bottom: 1px solid;
-    border-color: #777777;
+    border-color: #cccccc;;
 }
 
 .headerData {
@@ -87,6 +87,15 @@ body {
     border-color: #cccccc;
 }
 
+
+/*---------------------------------------------------------------------------*/
+/*Links*/
+/*---------------------------------------------------------------------------*/
+
+a {
+    text-decoration: none;
+}
+
 /* unvisited link */
 a:link {
     color: #777777;
@@ -97,14 +106,19 @@ a:visited {
     color: #9cbdc7;
 }
 
+/* mouse-over link */
 a:hover {
     color: hotpink;
 }
-  
+
 /* selected link */
 a:active {
     color: blue;
- }
+}
+
+.flexCol {
+    flex-direction: column;
+}
 
 .content {
     width: 920px;
@@ -130,6 +144,7 @@ a:active {
 
 .contentText{
     flex: 1 1 auto;
+    line-height: 1.5;
 }
 
 #sep{
@@ -148,6 +163,54 @@ a:active {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
     font-size: 12px;
+}
+
+#submitForm{
+    background-color: #4aaaa5;
+    color:#ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    border: none;
+}
+
+.linkRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 240px;
+}
+  
+.linkColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.tile-imgContainer{
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.croppedImage{
+    height: auto;
+    width: 300px;
+    padding: 20px;
+}
+
+.imageLabel{
+    position: relative;
+    bottom: 100px;
+    background-color: #4aaaa5;
+    margin: 20px;
+    width: 280px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
 }
 
 .headers {

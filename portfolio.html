@@ -1,0 +1,134 @@
+<!--
+Colors (Pro Tip: Use the Eye Dropper Chrome extension to find the colors that are used on webpages.)
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+Profile image in index.html:
+Use a picture of yourself.
+
+Portfolio images:
+Save the images to your images folder.
+
+Background images:
+The background pattern used was found on Subtle Patterns. You can browse through that site and use whichever pattern you like.
+
+Dimensions:
+
+The entire content and the main section content area is 960px wide.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Austin Cox Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- wrapper for sticky footer -->
+    <div class="allContent">
+
+        <div class="headerBg">
+            
+            <!-- Header -->
+            <div class="headerData">
+                
+                <!-- Author's Name -->
+                <div class="nameDiv">
+                    <strong>Austin Cox</strong>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                        
+                    <!-- Add a blank box to push the links right -->
+                    <!--<div class="navFixed">
+                    </div>-->
+
+                    <div class="navItem">
+                        <a href="index.html">About</a>
+                    </div>
+
+                    <!-- Line div -->
+                    <div class="divider"></div>
+
+                    <div class="navItem">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+
+                    <!-- Line div -->
+                    <div class="divider"></div>
+
+                    <div class="navItem">
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <h1 class="headers">Portfolio</h1>
+            <hr id="sep">
+            
+            <div class='linkRow'>
+                <div class="linkColumn">
+                    <div class="tile-imgContainer">
+                        <img src="assets/images/p1.jfif" class="croppedImage">
+                    </div>
+                    <div class="imageLabel">The First Thing</div>
+                </div>
+                <div class="linkColumn">
+                    <div class="tile-imgContainer">
+                        <img src="assets/images/p2.jfif" class="croppedImage">
+                    </div>
+                    <div class="imageLabel">The Second Thing</div>
+                </div>
+            </div>
+            
+            <div class="linkRow">
+                <div class="linkColumn">
+                    <div class="tile-imgContainer">
+                        <img src="assets/images/p3.jfif" class="croppedImage">
+                    </div>
+                    <div class="imageLabel">The Third Thing</div>
+                </div>
+                <div class="linkColumn">
+                    <div class="tile-imgContainer">
+                        <img src="assets/images/p4.jfif" class="croppedImage">
+                    </div>
+                    <div class="imageLabel">The Fourth Thing</div>
+                </div>
+            </div>
+
+            <div class="linkRow">
+                <div class="linkColumn">
+                    <div class="tile-imgContainer">
+                        <img src="assets/images/p5.jfif" class="croppedImage">
+                    </div>
+                    <div class="imageLabel">The Fifth Thing</div>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+    <footer class="footer">Copyright &copy;</footer>
+</body>
+</html>
