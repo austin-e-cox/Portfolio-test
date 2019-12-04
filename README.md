@@ -1,44 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>
-        Austin's README
-    </title>
-</head>
-<body>
-    # Portfolio
-    This is my web development portfolio. It is meant as a basic test of skills and shows that I can indeed generate a web page.
+# Portfolio
+This is my web development portfolio. It is meant as a basic test of skills and shows that I can indeed generate a web page.
 
-    ## Getting Started
+## Getting Started
 
-    Please visit [the Homepage](https://austin-e-cox.github.io/Portfolio/) to view this project
+Please visit [the Homepage](https://austin-e-cox.github.io/Portfolio/) to view this project
 
-    ### Prerequisites
+### Prerequisites
 
-    None
+None
 
-    ## Deployment
+## Deployment
 
-    No comments
+No comments
 
-    ## Built With
+## Built With
 
-    * [VS Code](https://code.visualstudio.com/) - The code editor used
+* [VS Code](https://code.visualstudio.com/) - The code editor used
 
-    ## Contributing
+## Contributing
 
-    None allowed
+None allowed
 
-    ## Authors
+## Authors
 
-    * **Austin Cox** - *Initial work*
+* **Austin Cox** - *Initial work*
 
-    ## License
+## License
 
-    This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-    ## Acknowledgments
+## Acknowledgments
 
-    * Inspiration
-    * etc
-</body>
+* Inspiration
+* etc
